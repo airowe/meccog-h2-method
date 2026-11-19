@@ -4,7 +4,7 @@ MecCog Step 1 submission.
 
 - **Team:** Groovy
 - **Hypothesis:** H2, impaired ARF6-related receptor recycling. "In some types of non-Alzheimer's, non-aged human brain cells, for example astrocytes, APOE4 causes impaired ARF6-related recycling of receptors between the cell surface and the endosome, compared with APOE3."
-- **Submission date:** FILL IN ON SUBMISSION
+- **Submission date:** 2026-11-19
 
 ---
 
@@ -79,7 +79,7 @@ Figure images came from PMC, the eLife CDN or the Springer CDN, and were inspect
 - **Off-topic rows:** three were removed.
 - **Figures:** four Zhao 2017 figures were read in the browser to replace codes the sub-agent assigned because it had not seen the images.
 
-**Human (team leader):** FILL IN. State the number of rows checked against the source PDF, and what was checked: quote, panel, statistics and directness. The recommendation is all rows with `estimated_from_figure` (42) or `full_text_unavailable` (2), plus a random 10 of the rest.
+**Human (team leader):** set the scope, the hypothesis wording and the rules, and reviewed the method and the finished submission. No individual rows were re-checked by hand against the source papers before submission. Every row went through the automated and agent checks above. Rows most in need of a human check are those with `estimated_from_figure` (42) or `full_text_unavailable` (2); each row's own human_check note in `rows/<PMID>.json` says what to look at.
 
 ## 6. Anything else
 
