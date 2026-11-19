@@ -1,0 +1,29 @@
+[
+ {
+  "paper": true,
+  "pmid": "43026723",
+  "doi": "10.1093/glycob/cwag109",
+  "pmcid": "",
+  "source_type": "PubMed published",
+  "relevance_rank_note": "Indirect: endosomal distribution of the recycling cell-surface proteoglycan glypican-1 in non-isogenic human APOE4/4 (LOAD donor) vs APOE3/3 fibroblasts; colocalization only, no recycling assay, no ARF6."
+ },
+ {
+  "pmid": "43026723",
+  "description": "Glypican-1 (a recycling cell-surface heparan sulfate proteoglycan) colocalized less with Rab7 late endosomes in APOE4/4 than APOE3/3 human fibroblasts (Pearson R 0.32 vs 0.85) and somewhat less with Rab5 early endosomes (0.71 vs 0.88); the authors read this as retarded endosomal transport. No APOE4 vs APOE3 test is reported: the only P value (0.004) compares Rab5 with Rab7 colocalization within APOE4/4 cells.",
+  "quote": "When corresponding co-localizations were determined in ApoE4/4 fibroblasts the Pearson R-values were for Rab5 vs GPC1 G:R = 0.71 (Fig. 4E and F) and for Rab7 vs GPC1 G:R = 0.32; significance ** (Fig. 4G) indicating retarded transport of GPC1 to early endosomes and from early to late endosomes.",
+  "summary": "(APOE3/3 -> APOE4/4) -> (less glypican-1 in late endosomes, slower endosomal transport)",
+  "relevance": 0.35,
+  "system": "Human skin fibroblasts from Coriell: APOE3/3 GM23976 (male, 52 years, healthy) vs APOE4/4 AG10788 (sex unknown, 87 years, late-onset AD), passages 6-15; immunofluorescence of GPC1 with Rab5 or Rab7, Pearson R from six low-magnification images per condition. Deviation: non-brain cells, not isogenic, one donor per genotype, APOE4 donor aged with AD; colocalization surrogate, not a recycling assay. Accepted manuscript PDF read in Chrome 2026-11-19.",
+  "location": "Fig 4C, 4G",
+  "eff": "qualitative",
+  "eff_prov": "printed_in_text",
+  "p": "N/A",
+  "p_prov": "not_found_in_source",
+  "n": "6",
+  "n_prov": "printed_in_text",
+  "class": 3,
+  "strength": 4,
+  "against": false,
+  "human_check": "P=0.004 in the legend is panel E vs G (both APOE4/4), not APOE4 vs APOE3, so it is not used. Effect left qualitative; the R values are in the description. The APOE4/4 line AG10788 is the same Coriell donor as the APOE4 parental line in Narayan 2020. The induced-neuron (iN) results concern NO synthase and HS release, not receptor trafficking, and were not extracted."
+ }
+]
