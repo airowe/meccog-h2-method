@@ -1,0 +1,48 @@
+[
+ {
+  "paper": true,
+  "pmid": "12507910",
+  "doi": "10.1016/s0002-9440(10)63818-7",
+  "pmcid": "PMC1851134",
+  "source_type": "PubMed published",
+  "relevance_rank_note": "Postmortem human hippocampus and neocortex, middle-aged neurologically normal controls and global-ischemia cases: semiquantitative neuronal rab4 (recycling endosome) and rabaptin-5 (early endosome) immunoreactivity, APOE e4 carriers vs non-e4 (pooled e2/e3). Marker level only, no recycling rate. Rows use the uninjured controls; the e4 x ischemia interaction gives no row."
+ },
+ {
+  "pmid": "12507910",
+  "description": "AGAINST: in uninjured control brains, neuronal rab4 (recycling-endosome marker) immunoreactivity was higher, not lower, in APOE e4 carriers than in non-e4 cases (bars about 1.53 vs 0.97 on the 0-3 score, about 58% higher, read off the figure). No pairwise e4 vs non-e4 test within controls is reported; the two-way ANOVA across controls and ischemia cases gives an e4 main effect of P = 0.62, and the authors call the control difference a trend. After global ischemia the rab4 rise was 0.9 units smaller in e4 carriers (interaction P = 0.017); that injury-dependent result is not this row.",
+  "quote": "Using two-way analysis of variance, the degree of rab4 immunoreactivity was not significantly different between the APOE ε4 and non-ε4 groups (P = 0.62)",
+  "summary": "(non-e4 -> APOE e4 carrier) -> (no lower, trend higher, neuronal rab4 recycling-endosome immunoreactivity in uninjured human brain) [AGAINST]",
+  "relevance": 0.3,
+  "system": "Human postmortem medial temporal lobe (hippocampus CA1, CA2, CA3/4, dentate gyrus and neocortex), neurons; uninjured controls without neurological, psychiatric or cardiovascular disease, 11 APOE e4 carriers (2 e4/e4; mean age 49) vs 24 non-e4 (2 carry one e2; mean age 52); 5 of 38 controls had amyloid deposits; rab4 immunohistochemistry on paraffin sections, blinded 0-3 score averaged over 5 regions. Middle-aged human brain; comparator pools APOE2 carriers with APOE3; marker level, not a recycling rate.",
+  "location": "Fig 6, control (white) bars",
+  "eff": "~58%",
+  "eff_prov": "estimated_from_figure",
+  "p": "N/A",
+  "p_prov": "not_found_in_source",
+  "n": "35",
+  "n_prov": "printed_in_text",
+  "class": 3,
+  "strength": 4,
+  "against": true,
+  "human_check": "Read off the journal's large Fig 6 image (ajp.amjpathol.org, 2026-11-21): y axis 0-2.0; control non-e4 about 0.97, control e4 about 1.53 (ischemia non-e4 about 1.73, e4 about 1.39). The only printed P values are the two-way ANOVA main effects (e4 P = 0.62, ischemia P = 0.10) and the interaction (P = 0.017); none is the within-control contrast, so P is N/A. n = 35 genotyped controls (11 e4, 24 non-e4). The authors read more rab4 as more recycling activity; a rab4 build-up could also mean slower exit, which the paper cannot separate. Leader approved inclusion 2026-11-21."
+ },
+ {
+  "pmid": "12507910",
+  "description": "AGAINST: in uninjured control brains, neuronal rabaptin-5 (rab5 effector, early-endosome marker) immunoreactivity did not differ meaningfully between APOE e4 carriers and non-e4 cases (bars about 0.54 vs 0.62 on the 0-3 score, about 13% lower in e4, read off the figure). No pairwise test within controls is reported; the two-way ANOVA gives an e4 main effect of P = 0.62 and no e4 x ischemia interaction (P = 0.98).",
+  "quote": "Using two-way analysis of variance, the degree of rabaptin-5 immunoreactivity was not significantly different between the APOE ε4 and non-ε4 groups (P = 0.62)",
+  "summary": "(non-e4 -> APOE e4 carrier) -> (no clear change in neuronal rabaptin-5 early-endosome immunoreactivity in uninjured human brain) [AGAINST]",
+  "relevance": 0.2,
+  "system": "Human postmortem medial temporal lobe (hippocampus CA1, CA2, CA3/4, dentate gyrus and neocortex), neurons; uninjured controls without neurological, psychiatric or cardiovascular disease, 11 APOE e4 carriers (2 e4/e4; mean age 49) vs 24 non-e4 (2 carry one e2; mean age 52); 5 of 38 controls had amyloid deposits; rabaptin-5 immunohistochemistry on paraffin sections, blinded 0-3 score averaged over 5 regions. Middle-aged human brain; comparator pools APOE2 carriers with APOE3; early-endosome marker level, not recycling.",
+  "location": "Fig 5, control (white) bars",
+  "eff": "~13%",
+  "eff_prov": "estimated_from_figure",
+  "p": "N/A",
+  "p_prov": "not_found_in_source",
+  "n": "35",
+  "n_prov": "printed_in_text",
+  "class": 3,
+  "strength": 4,
+  "against": true,
+  "human_check": "Read off the journal's large Fig 5 image (ajp.amjpathol.org, 2026-11-21): y axis 0-2.0; control non-e4 about 0.62, control e4 about 0.54 (ischemia non-e4 about 1.32, e4 about 1.23). Printed P values are the two-way ANOVA main effects (e4 P = 0.62, ischemia P < 0.001) and interaction (P = 0.98); none is the within-control contrast, so P is N/A. Coded against under the non-significant-trend rule: a small untested difference with no e4 effect in the ANOVA. Leader approved inclusion 2026-11-21."
+ }
+]
