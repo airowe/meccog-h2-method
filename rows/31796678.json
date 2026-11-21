@@ -13,7 +13,7 @@
   "quote": "we demonstrated that ApoE4 attenuates the binding of sorting nexin 17 (SNX17) to ApoER2 and inhibits the recycling of ApoER2, resulting in decreased cell surface level of ApoER2",
   "summary": "(APOE3 -> APOE4) -> (less SNX17-ApoER2 binding -> less ApoER2 recycling -> less surface ApoER2)",
   "relevance": 0.6,
-  "system": "Cell system not stated in the abstract (neurite-growth readout implies neuronal cells); ApoE4 compared against ApoE3/control as stated by the authors. Full text subscription-only (SAGE/IOS Press; not in PMC or Europe PMC; Unpaywall: not OA), so species, cell type, dose and assay are unverified. Deviation: unknown model system; SNX17-dependent rather than ARF6-related recycling.",
+  "system": "Cell system not stated in the abstract (neurite-growth readout implies neuronal cells); ApoE4 compared against ApoE3/control as stated by the authors. Full text subscription-only (SAGE/IOS Press; not in PMC or Europe PMC; Unpaywall: not OA), so species, cell type, dose and assay are unverified. Unknown model system.",
   "location": "Abstract (full text unavailable)",
   "eff": "N/A",
   "eff_prov": "full_text_unavailable",
@@ -22,9 +22,9 @@
   "n": "N/A",
   "n_prov": "full_text_unavailable",
   "class": 1,
-  "strength": 2,
+  "strength": 3,
   "against": false,
-  "human_check": "Abstract only. If you have library access, read the full text and fill system, panel, statistics; class may drop if recycling was inferred rather than measured."
+  "human_check": "Abstract only. If you have library access, read the full text and fill system, panel, statistics; class may drop if recycling was inferred rather than measured. Strength lowered at the team leader's approval (2026-11-19 referee pass): abstract only, no figure, method, comparator or n seen. Proposed 4; set to 3 because check_rows.py rejects class 1 with strength 4 or more."
  },
  {
   "pmid": "31796678",
@@ -32,7 +32,7 @@
   "quote": "we found that CA enhances the binding of SNX17 to ApoER2, counteracts the negative effects of ApoE4 on the cell surface level of ApoER2",
   "summary": "(APOE4 + carnosic acid -> more SNX17-ApoER2 binding) -> (surface ApoER2 restored)",
   "relevance": 0.35,
-  "system": "Cell system not stated in the abstract; ApoE4-treated cells with vs without carnosic acid. Full text subscription-only. Deviation: unknown model system; pharmacological rescue, not genotype comparison.",
+  "system": "Cell system not stated in the abstract; ApoE4-treated cells with vs without carnosic acid. Full text subscription-only. Unknown model system; pharmacological rescue.",
   "location": "Abstract (full text unavailable)",
   "eff": "N/A",
   "eff_prov": "full_text_unavailable",
@@ -41,8 +41,8 @@
   "n": "N/A",
   "n_prov": "full_text_unavailable",
   "class": 2,
-  "strength": 3,
+  "strength": 4,
   "against": false,
-  "human_check": "Abstract only; class 2 because the manipulated variable is SNX17 binding via a drug with other known actions."
+  "human_check": "Abstract only; class 2 because the manipulated variable is SNX17 binding via a drug with other known actions. Strength lowered at the team leader's approval (2026-11-19 referee pass): abstract only, no figure, method, comparator or n seen."
  }
 ]

@@ -107,8 +107,8 @@ if __name__ == '__main__':
     bad = 0
     for path in sys.argv[1:]:
         rows = json.load(open(path))
-        pmid = str(rows[0].get('pmid', os.path.basename(path).split('.')[0]))
-        txt = os.path.join(FT, pmid + '.txt')
+        key = os.path.basename(path).rsplit('.', 1)[0]  # rows/<key>.json -> ft/<key>.txt
+        txt = os.path.join(FT, key + '.txt')
         ft = open(txt).read() if os.path.exists(txt) else None
         errs = check(rows, ft)
         n = sum(1 for r in rows if not r.get('paper'))

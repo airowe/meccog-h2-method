@@ -6,7 +6,7 @@ def near(ctx,ns): return any(re.search(r'(?:fig(?:ure)?s?\.?\s*s?|\bs)'+n+r'(?![
 def run(paths):
     out=[];tot=0
     for f in paths:
-        rows=json.load(open(f)); pmid=rows[0]['pmid']; ft=norm(open(f'ft/{pmid}.txt').read())
+        rows=json.load(open(f)); pmid=f.split('/')[-1].rsplit('.',1)[0]; ft=norm(open(f'ft/{pmid}.txt').read())
         for r in rows[1:]:
             if r['quote']=='N/A' or 'Abstract' in r['location']: continue
             tot+=1; q=norm(r['quote']); i=ft.find(q); ctx=ft[max(0,i-600):i+len(q)+600]

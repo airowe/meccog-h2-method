@@ -1,0 +1,48 @@
+[
+ {
+  "paper": true,
+  "pmid": "35031484",
+  "doi": "10.1016/j.nbd.2022.105615",
+  "pmcid": "PMC8934202",
+  "source_type": "PubMed published",
+  "relevance_rank_note": "APOE4 vs APOE3 TR primary mouse microglia: early-endosome marker RAB5 staining mass, a class 3 endosome surrogate; no receptor trafficking assay."
+ },
+ {
+  "pmid": "35031484",
+  "description": "At baseline, primary microglia from APOE4 TR mice had higher RAB5 (early endosome) staining per cell than microglia from APOE3 TR mice.",
+  "quote": "In addition, the levels of both early endosome (RAB5) and late endosome (RAB7) markers were increased in E4 microglia relative to E3 microglia (Fig. 1e), which may be reflective of an increased number and/or size of endosomes.",
+  "summary": "(APOE3 -> APOE4) -> (more RAB5 early-endosome staining per microglial cell, baseline)",
+  "relevance": 0.3,
+  "system": "Mouse primary microglia from postnatal day 1-3 pups of homozygous human APOE3 or APOE4 targeted replacement mice (C57BL/6, Taconic models 1548 and 1549), mixed glial culture then purified microglia after 28 days in vitro, forebrains of 8-10 pups pooled per litter, each litter one experiment; untreated (baseline); RAB5 immunostaining, average integrated density per cell (ImageJ). Mouse cells; neonatal microglia with endogenous human APOE knock-in.",
+  "location": "Fig 1e (RAB5)",
+  "eff": "d=10.1",
+  "eff_prov": "printed_in_text",
+  "p": "0.04",
+  "p_prov": "printed_in_text",
+  "n": "4",
+  "n_prov": "printed_in_text",
+  "class": 3,
+  "strength": 4,
+  "against": false,
+  "human_check": "Legend: 'RAB5: t (5.4) = 2.8, p = 0.04, d = 10.1 CI95% [2.9, 17.5]', unpaired Welch t test E4 vs E3 (only two groups in the panel; bracket with one star, Fig 1e image checked). The printed d = 10.1 looks inconsistent with t = 2.8 at n = 4 per group (that gives d of about 2); the dot plot shows E3 ~9 vs E4 ~75 integrated density (~8x). Effect recorded as printed. n = 4 independent litters per genotype."
+ },
+ {
+  "pmid": "35031484",
+  "description": "AGAINST (not significant): 24 h after myelin challenge, RAB5 staining per cell was higher in APOE4 than APOE3 microglia but the difference did not reach significance (p = 0.06).",
+  "quote": "RAB5: t(4.1) = 2.5, p = 0.06, d = 1.8 CI95% [0.1, 3.6]",
+  "summary": "(APOE3 -> APOE4) -> (RAB5 higher, n.s., after myelin) [AGAINST]",
+  "relevance": 0.2,
+  "system": "Mouse primary microglia from postnatal day 1-3 pups of homozygous human APOE3 or APOE4 targeted replacement mice (C57BL/6, Taconic models 1548 and 1549), mixed glial culture then purified microglia after 28 days in vitro, forebrains of 8-10 pups pooled per litter, each litter one experiment; 24 h after a 3 h myelin challenge; RAB5 immunostaining, average integrated density per cell (ImageJ). Mouse cells; neonatal microglia with endogenous human APOE knock-in.",
+  "location": "Fig 3d (RAB5)",
+  "eff": "d=1.8",
+  "eff_prov": "printed_in_text",
+  "p": "0.06",
+  "p_prov": "printed_in_text",
+  "n": "4",
+  "n_prov": "printed_in_text",
+  "class": 3,
+  "strength": 4,
+  "against": true,
+  "human_check": "Coded against as non-significant (same convention as 29861287 S6E, P = 0.06); the direction matches the baseline result. The legend calls these panels 'c, d'; the RAB5 graph is in panel d (panel c is images). Results text says E4 'again displayed higher levels of both RAB5 and RAB7'. Legend says n = 4/group, but only 3 E4 points are visible in the RAB5 plot (Fig 3 image checked)."
+ }
+]

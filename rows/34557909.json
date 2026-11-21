@@ -1,0 +1,48 @@
+[
+ {
+  "paper": true,
+  "pmid": "34557909",
+  "doi": "10.1242/jcs.258894",
+  "pmcid": "PMC8572006",
+  "source_type": "PubMed published",
+  "relevance_rank_note": "apoE3 vs apoE4 changes the endosomal localisation of sortilin-FABP7 receptor complexes (more in Rab5 and Rab11 compartments) in CHO cells with added apoE; a trapping surrogate, no recycling rate, surface level or ARF6."
+ },
+ {
+  "pmid": "34557909",
+  "description": "In CHO-S/F cells treated with apoE4 rather than apoE3, a larger fraction of sortilin-FABP7 complexes (PLA signal) lay in Rab5-positive early endosomes.",
+  "quote": "Altered sorting of sortilin–FABP7 complexes in the presence of apoE4 was confirmed quantitatively by colocalization studies documenting trapping of PLA signals for sortilin and FABP7 in early endosomes (marked by Rab5; Fig. 7F,H)",
+  "summary": "(apoE3 -> apoE4) -> (more sortilin-FABP7 complex in Rab5+ early endosomes)",
+  "relevance": 0.2,
+  "system": "CHO cells (Chinese hamster ovary), not brain cells: CHO cells stably co-expressing sortilin and Myc-tagged FABP7 (CHO-S/F), treated 24 h with conditioned HEK293 medium containing 5 ug/mL human apoE3 or apoE4; sortilin-FABP7 proximity ligation assay (PLA) co-stained for Rab5; thresholded Manders coefficient tM1 (PLA overlapping Rab5), per cell; experiment replicated three times.",
+  "location": "Fig 7H",
+  "eff": "~1.35x",
+  "eff_prov": "estimated_from_figure",
+  "p": "<0.01",
+  "p_prov": "visual_only",
+  "n": "33-34",
+  "n_prov": "printed_in_text",
+  "class": 3,
+  "strength": 3,
+  "against": false,
+  "human_check": "Means read off Fig 7H (~0.20 apoE3 vs ~0.27 apoE4). Bracket drawn between apoE3 and apoE4 with two stars; legend key '**, P<0.01'. n = 34 cells (apoE3) and 33 cells (apoE4), cells not cultures. The complex is sortilin bound to FABP7 (an intracellular cargo), not the bare receptor."
+ },
+ {
+  "pmid": "34557909",
+  "description": "In the same cells, a larger fraction of sortilin-FABP7 complexes lay in Rab11-positive recycling endosomes with apoE4 than with apoE3.",
+  "quote": "and recycling endosomes (marked by Rab11; Fig. 7G,I) in the presence of apoE4 as compared with apoE3.",
+  "summary": "(apoE3 -> apoE4) -> (more sortilin-FABP7 complex in Rab11+ recycling endosomes)",
+  "relevance": 0.2,
+  "system": "CHO cells (Chinese hamster ovary), not brain cells: CHO cells stably co-expressing sortilin and Myc-tagged FABP7 (CHO-S/F), treated 24 h with conditioned HEK293 medium containing 5 ug/mL human apoE3 or apoE4; sortilin-FABP7 proximity ligation assay (PLA) co-stained for Rab11; thresholded Manders coefficient tM1 (PLA overlapping Rab11), per cell; experiment replicated three times.",
+  "location": "Fig 7I",
+  "eff": "~1.25x",
+  "eff_prov": "estimated_from_figure",
+  "p": "<0.05",
+  "p_prov": "visual_only",
+  "n": "38",
+  "n_prov": "printed_in_text",
+  "class": 3,
+  "strength": 3,
+  "against": false,
+  "human_check": "Means read off Fig 7I (~0.21 apoE3 vs ~0.26 apoE4). Bracket with one star; legend key '*P<0.05'. n = 38 cells per condition. More complex in Rab11 recycling endosomes is read by the authors as trapping; it could also mean more recycling-route traffic, so the direction for H2 is interpretive."
+ }
+]

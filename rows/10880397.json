@@ -1,0 +1,48 @@
+[
+ {
+  "paper": true,
+  "pmid": "10880397",
+  "doi": "10.1016/s0002-9440(10)64538-5",
+  "pmcid": "PMC1850219",
+  "source_type": "PubMed published",
+  "relevance_rank_note": "Postmortem human neocortex: rab5 early-endosome volume stratified by APOE genotype (E4 carriers vs pooled E2/E3) in preclinical AD and in advanced AD; endosome-size surrogate only. rab4 (recycling) is not split by genotype."
+ },
+ {
+  "pmid": "10880397",
+  "description": "In preclinical-AD prefrontal cortex, lamina III pyramidal neurons of APOE e4 carriers had larger total rab5-positive early-endosome volume than those of e2/e3 brains (E2 pooled with E3).",
+  "quote": "we found that the mean total endosomal volume per neuron in brains from the possible AD cases carrying one or two APOE ε4 alleles was nearly 50% larger than the cases carrying APOE ε2 or ε3 (ε2, ε3 group mean = 3.18%, SEM ± 0.095; ε4 group mean = 4.68%, SEM ± 0.206; P < 0.005)",
+  "summary": "(APOE2/3 -> APOE4 carrier) -> (larger rab5+ early-endosome volume per neuron, preclinical AD)",
+  "relevance": 0.3,
+  "system": "Human postmortem prefrontal cortex (Brodmann area 10), lamina III pyramidal neurons; 15 cognitively normal elderly individuals with early-stage AD neuropathology (neocortex Braak 0; entorhinal/hippocampus sparse plaques, Braak I-III); ages of these cases not reported (age-matched controls 62-80 years); 5 brains carrying one or two APOE e4 alleles (e2/4, e3/4 or e4/4) vs 10 brains with e2 or e3 alleles only (E2 pooled with E3); rab5 immunocytochemistry on 30-40 um vibratome sections, total early-endosome volume as % of neuronal cross-sectional area, 25 neurons per brain. Aged human brain with preclinical AD pathology; comparator pools APOE2 with APOE3 and the E4 group mixes heterozygotes and homozygotes.",
+  "location": "Fig 1l",
+  "eff": "50%",
+  "eff_prov": "printed_in_text",
+  "p": "<0.005",
+  "p_prov": "printed_in_text",
+  "n": "15",
+  "n_prov": "printed_in_text",
+  "class": 3,
+  "strength": 4,
+  "against": false,
+  "human_check": "Comparator pools APOE2 with APOE3. Results text says 'nearly 50% larger' (consistent with the printed means 4.68 vs 3.18), but the Fig 1 legend says 'approximately twofold'; the text figure is used. n = 15 brains (5 e4 carriers, 10 e2/e3), 25 neurons each; the tiny SEMs suggest the test was per neuron, which the paper does not state. Fig 1l itself is a per-neuron scatter plot with no bars or stars. rab4 (recycling marker, Fig 1g-j) is compared pre-AD vs control only, never split by APOE: no rab4 row."
+ },
+ {
+  "pmid": "10880397",
+  "description": "AGAINST: in moderate-to-severe AD brains, neuronal early-endosome volume did not differ between APOE e4 carriers and e2/e3 cases (data not shown). The paper prints mean endosome volumes (APOE e4 5.29, e2/e3 4.99) but no percent.",
+  "quote": "we found no detectable differences in neuronal endosomal volume in AD brains from individuals with one or both ε4 alleles as compared to those carrying ε3 or ε2 alleles (mean endosomal volume ε3, ε2 = 4.99, SEM ± 0.10; mean endosomal volume ε4 = 5.29, SEM ± 0.24, P = 0.112)",
+  "summary": "(APOE2/3 -> APOE4 carrier) -> (no change in early-endosome volume, advanced AD) [AGAINST]",
+  "relevance": 0.2,
+  "system": "Human postmortem neocortex, pyramidal neurons, confirmed moderate-to-severe sporadic AD; APOE e4 carriers vs e2/e3 (pooled); rab5 early-endosome volume as % cell area; case numbers not given. Aged; advanced-AD human brain; comparator pools APOE2 with APOE3.",
+  "location": "Results text, 'APOE e4 Genotype Promotes EP Activation' section (data not shown)",
+  "eff": "N/A",
+  "eff_prov": "not_found_in_source",
+  "p": "0.112",
+  "p_prov": "printed_in_text",
+  "n": "N/A",
+  "n_prov": "not_found_in_source",
+  "class": 3,
+  "strength": 4,
+  "against": true,
+  "human_check": "Means printed (e4 5.29 vs e2/e3 4.99, about 6% higher in e4) but no percent is printed, so effect is N/A. Number of advanced-AD cases not stated. Not in any figure. Advanced AD is far from H2's non-AD condition; included as the paper's own null for the E4 contrast."
+ }
+]

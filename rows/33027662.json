@@ -13,10 +13,10 @@
   "quote": "Using fluorescently-tagged Tf, we again observed that APOE4 astrocytes internalized less Tf than APOE3 astrocytes.",
   "summary": "(APOE3 -> APOE4) -> (less transferrin internalization per cell in astrocytes)",
   "relevance": 0.55,
-  "system": "Human iPSC-derived astrocytes, isogenic APOE3 (parental) vs CRISPR-edited APOE4; Alexa647-transferrin 25 ug/mL, 5 min at 37C, confocal quantification of Tf intensity per cell. Deviation: in-vitro iPSC-derived (fetal-like) astrocytes; measures ligand internalization, not receptor recycling itself; ARF6 not examined. Note: PMC author manuscript read, cited as published Cell Rep version. Donor note (Fig S1A): APOE3 parental line Coriell AG09173 from a 75-year-old unaffected female; APOE4 parental line AG10788 from an 87-year-old female with confirmed AD diagnosis, so one isogenic pair is on an aged AD-donor background.",
+  "system": "Human iPSC-derived astrocytes, isogenic APOE3 (parental) vs CRISPR-edited APOE4; Alexa647-transferrin 25 ug/mL, 5 min at 37C, confocal quantification of Tf intensity per cell. In-vitro iPSC-derived (fetal-like) astrocytes. Donor note (Fig S1A): APOE3 parental line Coriell AG09173 from a 75-year-old unaffected female; APOE4 parental line AG10788 from an 87-year-old female with confirmed AD diagnosis, so one isogenic pair is on an aged AD-donor background.",
   "location": "Fig 1G (right), Fig 1I",
-  "eff": "~49%",
-  "eff_prov": "estimated_from_figure",
+  "eff": "N/A",
+  "eff_prov": "ambiguous_panel",
   "p": "0.036",
   "p_prov": "printed_in_text",
   "n": "12",
@@ -24,7 +24,7 @@
   "class": 3,
   "strength": 4,
   "against": false,
-  "human_check": "Effect ~49% reduction read off bar heights (APOE3 ~1.8e6 vs APOE4 ~0.92e6); P=0.036 is printed on the panel itself, not in the legend text."
+  "human_check": "Effect left N/A (ambiguous_panel, team leader decision 2026-11-19): the Fig 1G transferrin y-axis is mislabelled. Its four equally spaced ticks read 500000, 1e6, 2e6, 2e6; on a linear axis the third tick would be 1.5e6 and the origin ~0.25e6, giving roughly E3 ~1.40e6 vs E4 ~0.95e6 (~32% lower), but taken at face value the labels give ~49%. The figure cannot settle which. P=0.036 is printed on the panel itself, not in the legend text. APOE3 parental line is Coriell AG09173 (Suppl Fig S1A), the same donor as the AG09173 set in 42239208."
  },
  {
   "pmid": "33027662",
@@ -32,7 +32,7 @@
   "quote": "These results were confirmed in astrocytes derived from an independent iPSC line (Figure S1A) (Lin et al., 2018), where we again observed that APOE4 astrocytes exhibit a similar genotype-dependent decrease in early clathrin-mediated endocytosis (Figure S2I)",
   "summary": "(APOE3 -> APOE4) -> (less transferrin internalized, NS)",
   "relevance": 0.4,
-  "system": "Human iPSC-derived astrocytes, second isogenic pair: APOE4 (parental, AG10788) vs CRISPR-edited APOE3; fluorescent transferrin 5 min pulse, microscopy, transferrin intensity per cell, 30-50 cells per sample. Deviation: in-vitro iPSC astrocytes; measures ligand internalization, not receptor recycling itself; ARF6 not examined. Donor note (Fig S1A): APOE3 parental line Coriell AG09173 from a 75-year-old unaffected female; APOE4 parental line AG10788 from an 87-year-old female with confirmed AD diagnosis, so one isogenic pair is on an aged AD-donor background.",
+  "system": "Human iPSC-derived astrocytes, second isogenic pair: APOE4 (parental, AG10788) vs CRISPR-edited APOE3; fluorescent transferrin 5 min pulse, microscopy, transferrin intensity per cell, 30-50 cells per sample. Donor note (Fig S1A): APOE3 parental line Coriell AG09173 from a 75-year-old unaffected female; APOE4 parental line AG10788 from an 87-year-old female with confirmed AD diagnosis, so one isogenic pair is on an aged AD-donor background.",
   "location": "Supplementary Fig S2I",
   "eff": "~28%",
   "eff_prov": "estimated_from_figure",
@@ -43,15 +43,15 @@
   "class": 3,
   "strength": 4,
   "against": true,
-  "human_check": "Effect read off S2I bars (APOE3 about 1.8e6 vs APOE4 about 1.3e6 per cell). P=0.053 printed on the panel; n=12-16 samples from the S2 legend. Marked against because not significant, though the authors present it as a confirmation."
+  "human_check": "Effect read off S2I bars (APOE3 about 1.8e6 vs APOE4 about 1.3e6 per cell). P=0.053 printed on the panel; n=12-16 samples from the S2 legend. Marked against because not significant, though the authors present it as a confirmation. Re-checked 2026-11-21 against the Cell Reports supplement (mmc1.pdf, Figure S2 and legend): bars, P=0.053, n=12-16 (S2I) and n=7 (S2A) all match."
  },
  {
   "pmid": "33027662",
-  "description": "AGAINST: Rab11-positive recycling endosome levels did not differ between isogenic APOE3 and APOE4 iPSC-derived astrocytes, in contrast to the early-endosome decrease.",
+  "description": "AGAINST: Rab11-positive recycling endosome levels did not differ between isogenic APOE3 and APOE4 iPSC-derived astrocytes, in contrast to the early-endosome decrease. No P value is printed.",
   "quote": "we noted no difference in Rab11 (recycling endosome) levels between cells of the APOE3 and APOE4 genotype (Figure S2A,B)",
   "summary": "(APOE3 -> APOE4) -> (no change in Rab11+ recycling endosomes in astrocytes) [AGAINST]",
   "relevance": 0.5,
-  "system": "Human iPSC-derived astrocytes, isogenic APOE3 vs APOE4; Rab11 immunofluorescence intensity per cell, APOE3 (parental) vs APOE4 (isogenic), 30-50 cells per sample. Deviation: in-vitro iPSC astrocytes; recycling-endosome marker abundance is a surrogate for receptor recycling flux. Donor note (Fig S1A): APOE3 parental line Coriell AG09173 from a 75-year-old unaffected female; APOE4 parental line AG10788 from an 87-year-old female with confirmed AD diagnosis, so one isogenic pair is on an aged AD-donor background.",
+  "system": "Human iPSC-derived astrocytes, isogenic APOE3 vs APOE4; Rab11 immunofluorescence intensity per cell, APOE3 (parental) vs APOE4 (isogenic), 30-50 cells per sample. Donor note (Fig S1A): APOE3 parental line Coriell AG09173 from a 75-year-old unaffected female; APOE4 parental line AG10788 from an 87-year-old female with confirmed AD diagnosis, so one isogenic pair is on an aged AD-donor background.",
   "location": "Supplementary Fig S2A",
   "eff": "~3%",
   "eff_prov": "estimated_from_figure",
@@ -62,7 +62,7 @@
   "class": 3,
   "strength": 4,
   "against": true,
-  "human_check": "S2A bars: APOE3 (parental) about 1.00 vs APOE4 (isogenic) about 0.97 Rab11 intensity per cell; no P value printed. n=7 samples of 30-50 cells (S2 legend). Supplement read in Chrome via PMC 2026-11-19."
+  "human_check": "S2A bars: APOE3 (parental) about 1.00 vs APOE4 (isogenic) about 0.97 Rab11 intensity per cell; no P value printed. n=7 samples of 30-50 cells (S2 legend). Supplement read in Chrome via PMC 2026-11-19. APOE3 parental line is Coriell AG09173 (Suppl Fig S1A), the same donor as the AG09173 set in 42239208. Re-checked 2026-11-21 against the Cell Reports supplement (mmc1.pdf, Figure S2 and legend): bars, P=0.053, n=12-16 (S2I) and n=7 (S2A) all match."
  },
  {
   "pmid": "33027662",
@@ -70,7 +70,7 @@
   "quote": "We observed that the number of both Rab5 positive and EEA1 positive puncta were decreased in APOE4 compared to APOE3 astrocytes (Figure 1D–F).",
   "summary": "(APOE3 -> APOE4) -> (fewer EEA1+ early endosomes in astrocytes)",
   "relevance": 0.4,
-  "system": "Human iPSC-derived astrocytes, isogenic APOE3 (parental) vs APOE4; EEA1 immunofluorescence, 80-100 cells per sample. Deviation: in-vitro iPSC astrocytes; early-endosome count is an indirect proxy for receptor recycling. Donor note (Fig S1A): APOE3 parental line Coriell AG09173 from a 75-year-old unaffected female; APOE4 parental line AG10788 from an 87-year-old female with confirmed AD diagnosis, so one isogenic pair is on an aged AD-donor background.",
+  "system": "Human iPSC-derived astrocytes, isogenic APOE3 (parental) vs APOE4; EEA1 immunofluorescence, 80-100 cells per sample. Donor note (Fig S1A): APOE3 parental line Coriell AG09173 from a 75-year-old unaffected female; APOE4 parental line AG10788 from an 87-year-old female with confirmed AD diagnosis, so one isogenic pair is on an aged AD-donor background.",
   "location": "Fig 1D (right), Fig 1F",
   "eff": "~58%",
   "eff_prov": "estimated_from_figure",
@@ -81,7 +81,7 @@
   "class": 3,
   "strength": 4,
   "against": false,
-  "human_check": "Effect ~58% reduction read off bars (~30 vs ~12.5 puncta/cell); P printed on panel."
+  "human_check": "Effect ~58% reduction read off bars (~30 vs ~12.5 puncta/cell); P printed on panel. APOE3 parental line is Coriell AG09173 (Suppl Fig S1A), the same donor as the AG09173 set in 42239208."
  },
  {
   "pmid": "33027662",
@@ -89,7 +89,7 @@
   "quote": "We observed that the number of both Rab5 positive and EEA1 positive puncta were decreased in APOE4 compared to APOE3 astrocytes (Figure 1D–F).",
   "summary": "(APOE3 -> APOE4) -> (fewer Rab5+ early endosomes in astrocytes)",
   "relevance": 0.4,
-  "system": "Human iPSC-derived astrocytes, isogenic APOE3 (parental) vs APOE4; Rab5 immunofluorescence, 80-100 cells per sample. Deviation: in-vitro iPSC astrocytes; early-endosome count is an indirect proxy for receptor recycling. Donor note (Fig S1A): APOE3 parental line Coriell AG09173 from a 75-year-old unaffected female; APOE4 parental line AG10788 from an 87-year-old female with confirmed AD diagnosis, so one isogenic pair is on an aged AD-donor background.",
+  "system": "Human iPSC-derived astrocytes, isogenic APOE3 (parental) vs APOE4; Rab5 immunofluorescence, 80-100 cells per sample. Donor note (Fig S1A): APOE3 parental line Coriell AG09173 from a 75-year-old unaffected female; APOE4 parental line AG10788 from an 87-year-old female with confirmed AD diagnosis, so one isogenic pair is on an aged AD-donor background.",
   "location": "Fig 1D (left), Fig 1E",
   "eff": "~79%",
   "eff_prov": "estimated_from_figure",
@@ -100,7 +100,7 @@
   "class": 3,
   "strength": 4,
   "against": false,
-  "human_check": "Effect ~79% reduction read off bars (~13.4 vs ~2.8 puncta/cell); P printed on panel."
+  "human_check": "Effect ~79% reduction read off bars (~13.4 vs ~2.8 puncta/cell); P printed on panel. APOE3 parental line is Coriell AG09173 (Suppl Fig S1A), the same donor as the AG09173 set in 42239208."
  },
  {
   "pmid": "33027662",
@@ -108,7 +108,7 @@
   "quote": "APOE4 astrocytes trend towards internalizing less EGF (Figure 1G,H).",
   "summary": "(APOE3 -> APOE4) -> (trend, n.s., less EGF uptake in astrocytes)",
   "relevance": 0.35,
-  "system": "Human iPSC-derived astrocytes, isogenic APOE3 vs APOE4; Alexa555-EGF 100 ng/mL, 5 min pulse, EGF puncta per cell. Deviation: in-vitro iPSC astrocytes; ligand uptake not receptor recycling. Donor note (Fig S1A): APOE3 parental line Coriell AG09173 from a 75-year-old unaffected female; APOE4 parental line AG10788 from an 87-year-old female with confirmed AD diagnosis, so one isogenic pair is on an aged AD-donor background.",
+  "system": "Human iPSC-derived astrocytes, isogenic APOE3 vs APOE4; Alexa555-EGF 100 ng/mL, 5 min pulse, EGF puncta per cell. Donor note (Fig S1A): APOE3 parental line Coriell AG09173 from a 75-year-old unaffected female; APOE4 parental line AG10788 from an 87-year-old female with confirmed AD diagnosis, so one isogenic pair is on an aged AD-donor background.",
   "location": "Fig 1G (left), Fig 1H",
   "eff": "~30%",
   "eff_prov": "estimated_from_figure",
@@ -119,6 +119,6 @@
   "class": 3,
   "strength": 4,
   "against": true,
-  "human_check": "Non-significant (p=0.057) so recorded as against/null; effect ~30% read off bars (~39.5 vs ~27.5)."
+  "human_check": "Non-significant (p=0.057) so recorded as against/null; effect ~30% read off bars (~39.5 vs ~27.5). APOE3 parental line is Coriell AG09173 (Suppl Fig S1A), the same donor as the AG09173 set in 42239208."
  }
 ]

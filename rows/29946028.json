@@ -13,7 +13,7 @@
   "quote": "(B) Surface biotinylation (Left) and quantification (Right) of biological triplicates showing that plasma membrane levels of LRP1 are depressed by ∼50% in ApoE4 astrocytes, relative to ApoE3 (**P = 0.0022, Student’s t test; n = 3).",
   "summary": "(ApoE3 -> ApoE4) -> (less surface LRP1)",
   "relevance": 0.9,
-  "system": "Cultured astrocytes from ApoE-knockout mice with isogenic knock-in of human APOE3 or APOE4 (cells from ref 23, Verghese et al. 2013); endogenous human ApoE expression; cell-surface biotinylation, LRP1 immunoblot normalised to Na+/K+ ATPase, biological triplicates. Deviation: mouse astrocytes (human APOE gene only), in vitro cell culture, donor age not stated, possibly an immortalized line.",
+  "system": "Cultured astrocytes from ApoE-knockout mice with isogenic knock-in of human APOE3 or APOE4 (cells from ref 23, Verghese et al. 2013); endogenous human ApoE expression; cell-surface biotinylation, LRP1 immunoblot normalised to Na+/K+ ATPase, biological triplicates. Mouse astrocytes (human APOE gene only); in vitro cell culture; donor age not stated; possibly an immortalized line.",
   "location": "Fig 2B",
   "eff": "50%",
   "eff_prov": "printed_in_text",
@@ -21,10 +21,10 @@
   "p_prov": "printed_in_text",
   "n": "3",
   "n_prov": "printed_in_text",
-  "class": 1,
+  "class": 3,
   "strength": 2,
   "against": false,
-  "human_check": "Authors print '∼50%'. Main text does not say whether these astrocytes are primary or immortalized; ref 23 (Verghese 2013) should be checked - likely the immortalized APOE-TR astrocyte lines."
+  "human_check": "Authors print '∼50%'. Main text does not say whether these astrocytes are primary or immortalized; ref 23 (Verghese 2013) should be checked - likely the immortalized APOE-TR astrocyte lines. Class 1 -> 3 (team leader, 2026-11-21): steady-state surface level is B' in the directness guide; synthesis or breakdown could also change it, so it does not measure recycling itself."
  },
  {
   "pmid": "29946028",
@@ -32,7 +32,7 @@
   "quote": "Note the ∼55% lower surface LRP1 positivity in ApoE4 relative to ApoE3 (****P = 4.8 × 10−−5, Student’s t test; n = 3).",
   "summary": "(ApoE3 -> ApoE4) -> (fewer surface-LRP1-positive cells)",
   "relevance": 0.85,
-  "system": "Cultured astrocytes from ApoE-knockout mice with isogenic knock-in of human APOE3 or APOE4 (ref 23); surface antibody labelling of 10,000 live nonpermeabilised cells, FACS, biological triplicates. Deviation: mouse astrocytes with human APOE, in vitro culture, donor age not stated.",
+  "system": "Cultured astrocytes from ApoE-knockout mice with isogenic knock-in of human APOE3 or APOE4 (ref 23); surface antibody labelling of 10,000 live nonpermeabilised cells, FACS, biological triplicates. Mouse astrocytes with human APOE; in vitro culture; donor age not stated.",
   "location": "Fig 2C",
   "eff": "55%",
   "eff_prov": "printed_in_text",
@@ -40,10 +40,10 @@
   "p_prov": "printed_in_text",
   "n": "3",
   "n_prov": "printed_in_text",
-  "class": 1,
+  "class": 3,
   "strength": 2,
   "against": false,
-  "human_check": "Metric is percent of LRP1-positive cells, not surface LRP1 intensity per cell. Legend prints the exponent as '10−−5' (typo); recorded as 4.8e-5."
+  "human_check": "Metric is percent of LRP1-positive cells, not surface LRP1 intensity per cell. Legend prints the exponent as '10−−5' (typo); recorded as 4.8e-5. Class 1 -> 3 (team leader, 2026-11-21): steady-state surface level is B' in the directness guide; synthesis or breakdown could also change it, so it does not measure recycling itself."
  },
  {
   "pmid": "29946028",
@@ -51,7 +51,7 @@
   "quote": "showing prominent LRP1 staining on the cell surface and processes and faint, ∼49% lower, labeling on ApoE4 cells (****P = 2.4 × 10−16, Student’s t test; n = 75 per condition)",
   "summary": "(ApoE3 -> ApoE4) -> (less surface LRP1 staining)",
   "relevance": 0.8,
-  "system": "Cultured astrocytes from ApoE-knockout mice with isogenic knock-in of human APOE3 or APOE4 (ref 23); surface anti-LRP1 immunofluorescence, confocal quantification per cell. Deviation: mouse astrocytes with human APOE, in vitro culture, donor age not stated.",
+  "system": "Cultured astrocytes from ApoE-knockout mice with isogenic knock-in of human APOE3 or APOE4 (ref 23); surface anti-LRP1 immunofluorescence, confocal quantification per cell. Mouse astrocytes with human APOE; in vitro culture; donor age not stated.",
   "location": "Fig 2D",
   "eff": "49%",
   "eff_prov": "printed_in_text",
@@ -59,18 +59,18 @@
   "p_prov": "printed_in_text",
   "n": "75",
   "n_prov": "printed_in_text",
-  "class": 1,
+  "class": 3,
   "strength": 2,
   "against": false,
-  "human_check": "n = 75 cells per condition (cells as replicates, not independent cultures); P is inflated accordingly."
+  "human_check": "n = 75 cells per condition (cells as replicates, not independent cultures); P is inflated accordingly. Class 1 -> 3 (team leader, 2026-11-21): steady-state surface level is B' in the directness guide; synthesis or breakdown could also change it, so it does not measure recycling itself."
  },
  {
   "pmid": "29946028",
-  "description": "Surface LRP1 measured by antibody labelling on ice and flow cytometry (4 C arm of the internalisation assay) was lower in ApoE4 than ApoE3 astrocytes (mean fluorescence about 47 vs 66, about 29% lower); the legend attributes this to reduced surface expression. The stars in the panel mark the 4 C vs 37 C contrast, not the genotype contrast.",
+  "description": "Surface LRP1 measured by antibody labelling on ice and flow cytometry (4 C arm of the internalisation assay) was lower in ApoE4 than ApoE3 astrocytes (mean fluorescence about 47 vs 66, about 29% lower); the legend attributes this to reduced surface expression. The stars in the panel mark the 4 C vs 37 C contrast, not the genotype contrast. No P is given for the genotype contrast.",
   "quote": "Note lower LRP1 staining in ApoE4 astrocytes, relative to ApoE3, due to reduced surface expression.",
   "summary": "(ApoE3 -> ApoE4) -> (less surface LRP1)",
   "relevance": 0.6,
-  "system": "ApoE3 and ApoE4 knock-in mouse astrocytes (ref 23); live cells labelled on ice with antibody to an extracellular LRP1 epitope, kept at 4 C, Alexa Fluor 633 secondary, flow cytometry mean fluorescence. Deviation: mouse astrocytes with human APOE, in vitro. SI Appendix legend read in Chrome 2026-11-19.",
+  "system": "ApoE3 and ApoE4 knock-in mouse astrocytes (ref 23); live cells labelled on ice with antibody to an extracellular LRP1 epitope, kept at 4 C, Alexa Fluor 633 secondary, flow cytometry mean fluorescence. Mouse astrocytes with human APOE; in vitro.",
   "location": "SI Appendix Fig S4D",
   "eff": "~29%",
   "eff_prov": "estimated_from_figure",
@@ -78,10 +78,10 @@
   "p_prov": "not_found_in_source",
   "n": "3",
   "n_prov": "printed_in_text",
-  "class": 1,
+  "class": 3,
   "strength": 3,
   "against": false,
-  "human_check": "Effect read off the S4D 4 C bars (ApoE3 about 66, ApoE4 about 47); no P value is given for the genotype contrast. Same cells as Fig 2B-D, so a fifth measurement of the same deficit, not an independent replication."
+  "human_check": "Effect read off the S4D 4 C bars (ApoE3 about 66, ApoE4 about 47); no P value is given for the genotype contrast. Bars re-checked against the SI Appendix PDF 2026-11-21. Same cells as Fig 2B-D, so a fifth measurement of the same deficit, not an independent replication. Class 1 -> 3 (team leader, 2026-11-21): steady-state surface level is B' in the directness guide; synthesis or breakdown could also change it, so it does not measure recycling itself."
  },
  {
   "pmid": "29946028",
@@ -89,7 +89,7 @@
   "quote": "Compared with the weak surface LRP1 staining in vector-transfected ApoE4 astrocytes, we observed prominent, ∼2.5-fold higher LRP1 staining in ApoE4 cells expressing ectopic NHE6 (Fig. 4F).",
   "summary": "(ApoE4 + NHE6 restored) -> (more surface LRP1)",
   "relevance": 0.75,
-  "system": "ApoE4 knock-in mouse astrocytes (ApoE-KO background, human APOE4; ref 23) transfected with GFP-tagged NHE6 vs empty vector; surface immunofluorescence of nonpermeabilised cells. Deviation: mouse astrocytes with human APOE, in vitro, overexpression; contrast is NHE6 vs vector within ApoE4, not ApoE4 vs ApoE3.",
+  "system": "ApoE4 knock-in mouse astrocytes (ApoE-KO background, human APOE4; ref 23) transfected with GFP-tagged NHE6 vs empty vector; surface immunofluorescence of nonpermeabilised cells. In vitro; overexpression; contrast is NHE6 vs vector within ApoE4.",
   "location": "Fig 4F",
   "eff": "2.5x",
   "eff_prov": "printed_in_text",
@@ -108,7 +108,7 @@
   "quote": "Importantly, we observed prominent, approximately twofold higher surface LRP1 expression in ApoE4 cells with TSA treatment (Fig. 5E and SI Appendix, Fig. S8G).",
   "summary": "(ApoE4 + HDAC inhibitor TSA -> NHE6 up) -> (more surface LRP1)",
   "relevance": 0.65,
-  "system": "ApoE4 knock-in mouse astrocytes (ref 23) treated with TSA vs DMSO; surface LRP1 labelling at 4 C and flow cytometry, n = 3. Deviation: mouse astrocytes with human APOE, in vitro, pharmacological HDAC inhibition with broad off-target effects; no ApoE3 arm.",
+  "system": "ApoE4 knock-in mouse astrocytes (ref 23) treated with TSA vs DMSO; surface LRP1 labelling at 4 C and flow cytometry, n = 3. Mouse astrocytes with human APOE; in vitro; pharmacological HDAC inhibition with broad off-target effects; no ApoE3 arm.",
   "location": "Fig 5E",
   "eff": "2x",
   "eff_prov": "printed_in_text",
@@ -123,11 +123,11 @@
  },
  {
   "pmid": "29946028",
-  "description": "Confocal imaging showed LRP1 lost from astrocyte processes and accumulated perinuclearly in ApoE4 vs ApoE3 cells, and LRP1 colocalised with endocytosed transferrin in ApoE4 astrocytes, consistent with endosomal sequestration of the receptor.",
+  "description": "Confocal imaging showed LRP1 lost from astrocyte processes and accumulated perinuclearly in ApoE4 vs ApoE3 cells, and LRP1 colocalised with endocytosed transferrin in ApoE4 astrocytes, consistent with endosomal sequestration of the receptor. No P is given: these are representative images without quantification, and the transferrin image shows APOE4 cells only.",
   "quote": "Confocal microscopy revealed a striking loss of LRP1 from astrocyte processes and increased perinuclear accumulation in ApoE4 cells, relative to ApoE3 (Fig. 2F).",
   "summary": "(ApoE3 -> ApoE4) -> (LRP1 perinuclear / transferrin-compartment accumulation)",
   "relevance": 0.6,
-  "system": "ApoE3 and ApoE4 knock-in mouse astrocytes (ref 23); LRP1 immunofluorescence (permeabilised), confocal with orthogonal slices; LRP1 + fluorescent transferrin colocalisation. Deviation: mouse astrocytes with human APOE, in vitro, donor age not stated.",
+  "system": "ApoE3 and ApoE4 knock-in mouse astrocytes (ref 23); LRP1 immunofluorescence (permeabilised), confocal with orthogonal slices; LRP1 + fluorescent transferrin colocalisation. Mouse astrocytes with human APOE; in vitro; donor age not stated.",
   "location": "Fig 2F-G",
   "eff": "qualitative",
   "eff_prov": "printed_in_text",
@@ -146,7 +146,7 @@
   "quote": "showed a reduction of LRP1-positive cells by ∼55% in ApoE4 astrocytes (Fig. 2C) and by ∼51% in patient-derived ApoE4/4 fibroblasts (SI Appendix, Fig. S2D)",
   "summary": "(APOE3/3 -> APOE4/4) -> (fewer surface-LRP1-positive cells)",
   "relevance": 0.5,
-  "system": "Human primary fibroblasts: AD-patient-derived APOE4/4 vs age-matched APOE3/3 control (tissue source and donor age not stated in the SI legend); surface LRP1 antibody labelling of live non-permeabilised cells, FACS. Deviation: non-brain cell type, AD patient donor (age-matched control, so likely aged), one line per genotype, not isogenic. SI Appendix legend read in Chrome 2026-11-19.",
+  "system": "Human primary fibroblasts: AD-patient-derived APOE4/4 vs age-matched APOE3/3 control (tissue source and donor age not stated in the SI legend); surface LRP1 antibody labelling of live non-permeabilised cells, FACS. Non-brain cell type; AD patient donor (age-matched control, so likely aged); one line per genotype; not isogenic.",
   "location": "SI Appendix Fig S2D",
   "eff": "51%",
   "eff_prov": "printed_in_text",
@@ -154,10 +154,10 @@
   "p_prov": "printed_in_text",
   "n": "3",
   "n_prov": "printed_in_text",
-  "class": 1,
+  "class": 3,
   "strength": 3,
   "against": false,
-  "human_check": "n=3 is biological triplicates of one line per genotype, not three donors."
+  "human_check": "n=3 is biological triplicates of one line per genotype, not three donors. Lines are Coriell AG04387 (APOE3/3) and AG10788 (APOE4/4) per SI Appendix methods; AG10788 is the same APOE4 donor as 33027662 (second pair) and 43026723. Class 1 -> 3 (team leader, 2026-11-21): steady-state surface level is B' in the directness guide; synthesis or breakdown could also change it, so it does not measure recycling itself."
  },
  {
   "pmid": "29946028",
@@ -165,7 +165,7 @@
   "quote": "(C, Top) Western blot analysis of NHE6 protein revealed that it was ∼45% lower in ApoE4 astrocytes, relative to ApoE3. (C, Bottom) Densitometric quantification of the monomeric and dimeric forms of NHE6 relative to β-actin (***P = 0.0009, Student’s t test; n = 4).",
   "summary": "(ApoE3 -> ApoE4) -> (less NHE6) -> (less surface LRP1, proposed)",
   "relevance": 0.55,
-  "system": "ApoE3 and ApoE4 knock-in mouse astrocytes (ref 23); Western blot of NHE6 normalised to beta-actin, n = 4. Deviation: mouse astrocytes with human APOE, in vitro; measures a putative upstream cause, not receptor trafficking.",
+  "system": "ApoE3 and ApoE4 knock-in mouse astrocytes (ref 23); Western blot of NHE6 normalised to beta-actin, n = 4. Mouse astrocytes with human APOE; in vitro.",
   "location": "Fig 4C",
   "eff": "45%",
   "eff_prov": "printed_in_text",
@@ -184,7 +184,7 @@
   "quote": "(B) Endosomal pH in ApoE4 astrocytes was strongly reduced by ∼0.84 pH unit, relative to ApoE3 (**P = 0.0037, Student’s t test; n = 3).",
   "summary": "(ApoE3 -> ApoE4) -> (more acidic endosomes)",
   "relevance": 0.4,
-  "system": "ApoE3 and ApoE4 knock-in mouse astrocytes (ref 23); endosomal pH by ratiometric pH-sensitive TFN-FITC vs pH-insensitive TFN-633, n = 3. Deviation: mouse astrocytes with human APOE, in vitro; mechanism step, not receptor surface level.",
+  "system": "ApoE3 and ApoE4 knock-in mouse astrocytes (ref 23); endosomal pH by ratiometric pH-sensitive TFN-FITC vs pH-insensitive TFN-633, n = 3. Mouse astrocytes with human APOE; in vitro.",
   "location": "Fig 3B",
   "eff": "qualitative",
   "eff_prov": "printed_in_text",
@@ -195,7 +195,7 @@
   "class": 3,
   "strength": 3,
   "against": false,
-  "human_check": "Effect is an absolute pH-unit difference (authors print '∼0.84 pH unit'); format chosen to fit the eff field. Effect is a pH-unit difference (0.84) printed in text; recorded as qualitative because the field takes percent/fold/standardized sizes only."
+  "human_check": "Effect is a pH-unit difference (0.84) printed in text; recorded as qualitative because the field takes percent/fold/standardized sizes only."
  },
  {
   "pmid": "29946028",
@@ -203,7 +203,7 @@
   "quote": "The rate of LRP1 endocytosis (at 37 °C for 10 min) in ApoE3 and ApoE4 astrocytes was similar (SI Appendix, Fig. S4)",
   "summary": "(ApoE3 -> ApoE4) -> (no change in LRP1 internalisation rate)",
   "relevance": 0.55,
-  "system": "ApoE3 and ApoE4 knock-in mouse astrocytes (ref 23); surface LRP1 labelled on ice with antibody to an extracellular epitope, 10 min at 37 C vs 4 C, remaining surface LRP1 by flow cytometry, internalisation normalised to ApoE3. Deviation: mouse astrocytes with human APOE, in vitro. SI Appendix legend read in Chrome 2026-11-19.",
+  "system": "ApoE3 and ApoE4 knock-in mouse astrocytes (ref 23); surface LRP1 labelled on ice with antibody to an extracellular epitope, 10 min at 37 C vs 4 C, remaining surface LRP1 by flow cytometry, internalisation normalised to ApoE3. Mouse astrocytes with human APOE; in vitro.",
   "location": "SI Appendix Fig S4E",
   "eff": "~12%",
   "eff_prov": "estimated_from_figure",
@@ -214,7 +214,7 @@
   "class": 3,
   "strength": 3,
   "against": true,
-  "human_check": "Effect ~12% read off the S4E bar (ApoE3 100, ApoE4 about 88); check against the figure."
+  "human_check": "Effect ~12% read off the S4E bar (ApoE3 100, ApoE4 about 88). Verified against the SI Appendix PDF (pnas.org) 2026-11-21: bars, NS p=0.2112 and n=3 match the panel and legend."
  },
  {
   "pmid": "29946028",
@@ -222,7 +222,7 @@
   "quote": "we observed no differences in LRP1 transcript (SI Appendix, Fig. S3E) and total LRP1 protein expression between ApoE3 and ApoE4 astrocytes (SI Appendix, Fig. S3 F and G)",
   "summary": "(ApoE3 -> ApoE4) -> (no change in LRP1 mRNA)",
   "relevance": 0.35,
-  "system": "ApoE3 and ApoE4 knock-in mouse astrocytes (ref 23); LRP1 gene expression (qPCR). Deviation: mouse astrocytes with human APOE, in vitro. SI Appendix legend read in Chrome 2026-11-19.",
+  "system": "ApoE3 and ApoE4 knock-in mouse astrocytes (ref 23); LRP1 gene expression (qPCR). Mouse astrocytes with human APOE; in vitro.",
   "location": "SI Appendix Fig S3E",
   "eff": "qualitative",
   "eff_prov": "printed_in_text",
@@ -241,7 +241,7 @@
   "quote": "we observed no differences in LRP1 transcript (SI Appendix, Fig. S3E) and total LRP1 protein expression between ApoE3 and ApoE4 astrocytes (SI Appendix, Fig. S3 F and G)",
   "summary": "(ApoE3 -> ApoE4) -> (no change in total LRP1 protein)",
   "relevance": 0.45,
-  "system": "ApoE3 and ApoE4 knock-in mouse astrocytes (ref 23); Western blot of total LRP1 normalised to beta-actin. Deviation: mouse astrocytes with human APOE, in vitro. SI Appendix legend read in Chrome 2026-11-19.",
+  "system": "ApoE3 and ApoE4 knock-in mouse astrocytes (ref 23); Western blot of total LRP1 normalised to beta-actin. Mouse astrocytes with human APOE; in vitro.",
   "location": "SI Appendix Fig S3F-G",
   "eff": "qualitative",
   "eff_prov": "printed_in_text",
@@ -251,8 +251,8 @@
   "n_prov": "printed_in_text",
   "class": 3,
   "strength": 3,
-  "against": true,
-  "human_check": "Marked against only because it is a no-effect finding; it supports the redistribution interpretation of H2."
+  "against": false,
+  "human_check": "Null total LRP1; not coded against (team leader approval, 2026-11-19 referee pass) because it supports the redistribution interpretation of H2."
  },
  {
   "pmid": "29946028",
@@ -260,7 +260,7 @@
   "quote": "demonstrating TFN uptake following 60 min of endocytosis by ApoE3 (green) and ApoE4 (gray) astrocytes (∼1.5-fold higher; ****P = 6.8 × 10−5, Student’s t test; n = 3)",
   "summary": "(ApoE3 -> ApoE4) -> (more cell-associated transferrin, not less)",
   "relevance": 0.5,
-  "system": "ApoE3 and ApoE4 knock-in mouse astrocytes (ref 23); fluorescent transferrin uptake 60 min, FACS mean fluorescence, biological triplicates. Deviation: mouse astrocytes with human APOE, in vitro; ligand uptake is a surrogate for TfR surface level/recycling.",
+  "system": "ApoE3 and ApoE4 knock-in mouse astrocytes (ref 23); fluorescent transferrin uptake 60 min, FACS mean fluorescence, biological triplicates. Mouse astrocytes with human APOE; in vitro.",
   "location": "Fig 1D",
   "eff": "1.5x",
   "eff_prov": "printed_in_text",
