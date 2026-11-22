@@ -26,7 +26,12 @@ def summarize(rows_by_key, order, ledger, review_keys):
     used = {k: rows_by_key[k] for k in order if k in rows_by_key}
     fs = [f for rows in used.values() for f in findings(rows)]
     est = sum(any(f.get(k + '_prov') == 'estimated_from_figure' for k in ('eff', 'p', 'n')) for f in fs)
-    kept = {e['key'] for e in ledger if e.get('decision') == 'kept'}
+    kept = set()
+    for e in ledger:
+        if e.get('decision') == 'kept':
+            kept.add(e['key'])
+        elif e.get('decision') == 'rekeyed':
+            kept.discard(e['key'])
     return {
         'papers': len(used),
         'cap_left': PAPER_CAP - len(used),
@@ -102,7 +107,12 @@ def selftest():
     assert weakest('## Weakest link\n\n1. **ARF6** x\n   wrapped\n2. y\n\n## Link 1\n3. not me\n') == ['**ARF6** x wrapped', 'y']
     assert weakest('# nothing here')[0].startswith('MISSING'), 'missing section must be loud'
     assert read_order("ORDER = ['1', 'k2']\n") == ['1', 'k2'] and read_order('x = 1') is None
-    print('selftest ok: counts, drift (4 kinds, plus a clean negative), weakest-link parse and miss')
+    rk = summarize({'n': rows['b']}, ['n'], [{'key': 'w', 'decision': 'kept'}, {'key': 'n', 'decision': 'kept'},
+                                             {'key': 'w', 'decision': 'rekeyed'}], [])
+    assert rk['kept_not_in_order'] == [] and rk['order_not_in_ledger'] == [], f'rekeyed must retire old key: {rk}'
+    relog = summarize({'a': rows['a']}, ['a'], [{'key': 'a', 'decision': 'kept'}, {'key': 'a', 'decision': 'excluded'}], [])
+    assert relog['order_not_in_ledger'] == [], 'a later re-screen must not un-keep a paper'
+    print('selftest ok: counts, drift (4 kinds, plus a clean negative), rekey, weakest-link parse and miss')
 
 
 if __name__ == '__main__':
