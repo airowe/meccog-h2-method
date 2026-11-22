@@ -1,0 +1,30 @@
+[
+ {
+  "paper": true,
+  "key": "nowak2025",
+  "pmid": "N/A",
+  "doi": "N/A",
+  "pmcid": "N/A",
+  "source_type": "Other",
+  "relevance_rank_note": "PhD thesis abstract (Nowak 2025, Cardiff; full text embargoed to 2027) on isogenic APOE33/APOE44 iPSC neurons with or without BIN1 knockout. States no difference in neuronal endocytosis; direction only, assay and per-genotype contrast not given. Added by the team leader against the orchestrator's lean."
+ },
+ {
+  "pmid": "N/A",
+  "quote": "The data did not show differences in neuronal endocytosis but suggested subtle lysosomal and autophagy effects with trends towards increased autophagy flux in neurons with a BIN1 knockout.",
+  "system": "Isogenic human iPSC-derived cortical neurons, CRISPR-Cas9 lines with APOE33 or APOE44 and with or without BIN1 knockout (endogenous APOE). Fixed and live high-content imaging, immunoblotting. Assay, cargo and replicate numbers not given in the abstract.",
+  "eff_prov": "printed_in_text",
+  "p_prov": "full_text_unavailable",
+  "n": "N/A",
+  "n_prov": "full_text_unavailable",
+  "class": 3,
+  "strength": 5,
+  "description": "In isogenic human iPSC neurons, neuronal endocytosis did not differ across the APOE33/APOE44 and BIN1 knockout lines, per the thesis abstract (no values or assay given).",
+  "summary": "(APOE33 -> APOE44, isogenic human iPSC neurons, +/- BIN1 KO) -> (no difference in endocytosis)",
+  "relevance": 0.2,
+  "location": "Thesis abstract (ORCA eprint 185570); full text embargoed until 2027-03-05",
+  "eff": "qualitative",
+  "p": "N/A",
+  "against": false,
+  "human_check": "Abstract only: the statement covers all lines and does not separate the APOE contrast from the BIN1 contrast, nor name the assay (uptake of which cargo) or give values. Not coded against: unchanged uptake does not test recycling, and an unchanged internalization rate is consistent with a recycling defect explaining lower surface levels (as in the 29946028 row). Unreviewed thesis, source type Other. Check the full text after the 2027-03-05 embargo ends."
+ }
+]
