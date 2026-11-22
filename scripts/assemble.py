@@ -18,7 +18,7 @@ HYPOTHESIS = ("In some types of non-Alzheimer's, non-aged human brain cells, for
 ORDER = ['31641056', '30375977', '38217595', '20547867', '29946028', '28957663', '31796678',
          '39532095', '34617884', '39901180', '24251389', '33027662', '42239208', '32588544',
          '29861287', '40845853', '43026723', '35031484', '41292981', '10880397', '12507910', '29311783',
-         '40675218', '34557909', 'ralhan2026', '37777962', 'kerman2023', '40457456', '37155564', '35969759', '34238312']
+         '40675218', '34557909', 'ralhan2026', '37777962', 'kerman2023', '40457456', '37155564', '35969759', '34238312', 'zulfiqar2019', 'li2026']
 STRENGTH = {1: '1 very strong', 2: '2 strong', 3: '3 moderate', 4: '4 weak', 5: '5 very weak'}
 # Method-sheet values live in an untracked local file (contains contact details).
 METHOD = json.load(open(os.path.join(WORK, 'method.local.json')))

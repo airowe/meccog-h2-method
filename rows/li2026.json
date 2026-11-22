@@ -1,0 +1,30 @@
+[
+ {
+  "paper": true,
+  "key": "li2026",
+  "pmid": "N/A",
+  "doi": "10.5287/ora-b7qyedjbk",
+  "pmcid": "N/A",
+  "source_type": "Other",
+  "relevance_rank_note": "PhD thesis (Li 2026, Oxford) with isogenic APOE3/APOE4 human iPSC astrocyte pairs from three donors (one control, two sporadic AD), endogenous APOE. In astrocyte monoculture, EEA1 staining intensity is higher in APOE4. High-content imaging, intensity only (no endosome size for astrocytes); unreviewed, figure-read values."
+ },
+ {
+  "pmid": "N/A",
+  "quote": "In monoculture, APOE4 astrocytes consistently exhibited lower nuclear intensity and reduced endosome roundness, but increased cytoplasmic width-to-length ratio, higher BODIPY intensity, and higher EEA1 intensity compared to APOE3 astrocytes.",
+  "system": "Isogenic APOE3 and APOE4 human iPSC astrocytes (lentiviral NFIB induction) from three donors: control donor 1 (AG09173, female), sAD donor 1 (UKBi011-A, male), sAD donor 2. Endogenous APOE, astrocyte monoculture without Abeta, EEA1 immunostaining, high-content imaging with Harmony feature extraction, two-way ANOVA (genotype x Abeta). Pooled panel of all three donors.",
+  "eff_prov": "estimated_from_figure",
+  "p_prov": "visual_only",
+  "n": "N/A",
+  "n_prov": "not_found_in_source",
+  "class": 3,
+  "strength": 5,
+  "description": "Early-endosome marker EEA1 staining was brighter in isogenic APOE4 human iPSC astrocytes than APOE3 (three donors pooled): about 625 vs 570 FU, about 10% higher, p < 0.0001 (significant in two of three donors separately).",
+  "summary": "(APOE3 -> APOE4, isogenic human iPSC astrocytes, 3 donors) -> (higher EEA1 intensity)",
+  "relevance": 0.3,
+  "location": "Thesis Fig. 6.12 I4 (PDF page 209), no-Abeta bars",
+  "eff": "~10%",
+  "p": "<0.0001",
+  "against": false,
+  "human_check": "Unreviewed DPhil thesis (University of Oxford, 2026), so source type Other. Effect and p read from the figure (**** bracket). Dots appear to be wells or fields pooled across donors, so p probably reflects technical replicates; n not stated. The thesis text names different significant donors in two places (I1/I3 vs I2/I3); the figure shows I1 and I3 with brackets. EEA1 intensity is a staining amount, not endosome size or recycling, so class 3 and strength 5. Two of the three donors have sporadic AD (iPSC lines, not aged tissue). The roundness panel (J4) shows APOE4 slightly higher, opposite to the text; no row."
+ }
+]
