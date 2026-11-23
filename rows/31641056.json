@@ -85,7 +85,7 @@
  },
  {
   "pmid": "31641056",
-  "description": "The ABCA1 agonist peptide CS-6253 (1 uM, 30 min) raised ABCA1-Rab11 colocalization in recombinant-ApoE4-treated GFP-ABCA1 HeLa cells by 11 percentage points vs ApoE4 alone (12 with CS-6253 alone), a partial rescue of the ApoE4 recycling-compartment shift; no ApoE3 arm in this panel.",
+  "description": "The ABCA1 agonist peptide CS-6253 (1 uM, 30 min) raised ABCA1-Rab11 colocalization in recombinant-ApoE4-treated GFP-ABCA1 HeLa cells by 11% (relative increase, Fig 6B means about 53 to 59) vs ApoE4 alone (12 with CS-6253 alone), a partial rescue of the ApoE4 recycling-compartment shift; no ApoE3 arm in this panel.",
   "quote": "Compared with cells treated with rApoE4 only, ABCA1 colocalization with Rab11 significantly increased by 11% upon cotreating cells with rApoE4 plus CS-6253 and by 12% with CS-6253 alone (Fig. 6A,B).",
   "summary": "(rApoE4 + CS-6253 vs rApoE4) -> (more ABCA1 in Rab11+ recycling endosomes)",
   "relevance": 0.55,
@@ -97,7 +97,7 @@
   "p_prov": "visual_only",
   "n": "~10-12",
   "n_prov": "estimated_from_figure",
-  "class": 2,
+  "class": 5,
   "strength": 4,
   "against": false,
   "human_check": "The printed 11% is a percentage-point difference (paper subtracts colocalization rates). Contrast is drug vs vehicle within ApoE4, not ApoE4 vs ApoE3. n counted from dots per group."
@@ -116,7 +116,7 @@
   "p_prov": "visual_only",
   "n": "3",
   "n_prov": "printed_in_text",
-  "class": 4,
+  "class": 5,
   "strength": 4,
   "against": false,
   "human_check": "Statistics are for the ARF6 decrease (Fig 5C, ~0.54 of vehicle, ***). The membrane-ABCA1 increase in Fig 5B (~1.33 of vehicle) is marked p=0.07 on the graph, yet the Results text says CS-6253 'increased' membrane ABCA1 without flagging non-significance. Not filed as its own row: it compares drug vs no drug within APOE4, not APOE4 vs APOE3 (team leader, 2026-11-19)."
@@ -135,7 +135,7 @@
   "p_prov": "printed_in_text",
   "n": "N/A",
   "n_prov": "not_found_in_source",
-  "class": 4,
+  "class": 5,
   "strength": 4,
   "against": false,
   "human_check": "Values are for the 24 h panel (Fig 3E); 4 h (Fig 3D) is ~12%, also p=0.03 printed on graph. Knockdown duration conflicts: legend says 48 h, Methods say ARF6 assessed 72 h after transfection. No n given for Fig 3D-E. This is the single cholesterol-efflux row allowed. Exact P printed on the figure panel itself (coded printed_in_text)."

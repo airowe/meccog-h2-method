@@ -91,7 +91,7 @@
   "relevance": 0.55,
   "system": "Primary neuron-enriched cultures from 1-3 day old APOE3 or APOE4 targeted replacement mouse pups on an alpha-synuclein knockout background; Rab11 immunostaining, confocal % area per neuron. Mouse primary neurons on an alpha-synuclein null background.",
   "location": "Fig 7D",
-  "eff": "qualitative",
+  "eff": "0.94x",
   "eff_prov": "printed_in_text",
   "p": "0.56",
   "p_prov": "printed_in_text",

@@ -97,7 +97,7 @@
   "p_prov": "printed_in_text",
   "n": "40",
   "n_prov": "printed_in_text",
-  "class": 2,
+  "class": 5,
   "strength": 2,
   "against": false,
   "human_check": "n = 40 cells per condition. Effect is NHE6 vs vector in ApoE4 cells; no ApoE3 arm in this panel."
@@ -116,7 +116,7 @@
   "p_prov": "printed_in_text",
   "n": "3",
   "n_prov": "printed_in_text",
-  "class": 2,
+  "class": 5,
   "strength": 3,
   "against": false,
   "human_check": "Authors print 'approximately twofold'; bar ~200 vs 100. Contrast is TSA vs DMSO within ApoE4."
@@ -180,7 +180,7 @@
  },
  {
   "pmid": "29946028",
-  "description": "Endosomal pH (ratiometric transferrin-FITC/transferrin-633) was about 0.84 pH units lower in ApoE4 than ApoE3 astrocytes (eff recorded as a pH-unit difference, not Cohen's d).",
+  "description": "Endosomal pH (ratiometric transferrin-FITC/transferrin-633) was about 0.84 pH units lower in ApoE4 than ApoE3 astrocytes (eff recorded as a pH-unit difference, not Cohen's d). Effect detail: the legend prints a shift of ~0.84 pH unit (more acidic in ApoE4).",
   "quote": "(B) Endosomal pH in ApoE4 astrocytes was strongly reduced by ∼0.84 pH unit, relative to ApoE3 (**P = 0.0037, Student’s t test; n = 3).",
   "summary": "(ApoE3 -> ApoE4) -> (more acidic endosomes)",
   "relevance": 0.4,

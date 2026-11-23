@@ -42,7 +42,7 @@
   "n_prov": "printed_in_text",
   "class": 5,
   "strength": 4,
-  "against": false,
+  "against": true,
   "human_check": "Fig 6 image viewed (PMC CDN pnas.2108870119fig06.jpg); confirmed no APOE3 arm. 6F: '***' bracket APOE4 vs APOE4+Exo-1; ~28000 vs ~19500, ~30% lower with Exo-1. Star key from the legend. Exo-1 blocks ER-Golgi/exocytic traffic broadly, so this does not separate recycling from biosynthetic delivery."
  },
  {
@@ -61,7 +61,7 @@
   "n_prov": "printed_in_text",
   "class": 5,
   "strength": 4,
-  "against": false,
+  "against": true,
   "human_check": "Fig 6 image viewed (PMC CDN pnas.2108870119fig06.jpg); confirmed no APOE3 arm. 6M: '***' bracket APOE4 vs APOE4+GPC-4 shRNA; ~18800 vs ~12000, ~36% lower; APOE4 vs control is '****'. Star key from the legend. Legend cites '(J)' for the GPC-4 shRNA surface reduction; the image confirms M is the GPC-4 shRNA panel (J is GPC-4 alone, no APOE4)."
  }
 ]

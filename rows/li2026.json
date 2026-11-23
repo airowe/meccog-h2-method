@@ -23,7 +23,7 @@
   "relevance": 0.3,
   "location": "Thesis Fig. 6.12 I4 (PDF page 209), no-Abeta bars",
   "eff": "~10%",
-  "p": "<0.0001",
+  "p": "<0.001",
   "against": false,
   "human_check": "Unreviewed DPhil thesis (University of Oxford, 2026), so source type Other. Effect and p read from the figure (**** bracket). Dots appear to be wells or fields pooled across donors, so p probably reflects technical replicates; n not stated. The thesis text names different significant donors in two places (I1/I3 vs I2/I3); the figure shows I1 and I3 with brackets. EEA1 intensity is a staining amount, not endosome size or recycling, so class 3 and strength 5. Two of the three donors have sporadic AD (iPSC lines, not aged tissue). The roundness panel (J4) shows APOE4 slightly higher, opposite to the text; no row."
  }

@@ -85,7 +85,7 @@
  },
  {
   "pmid": "41292981",
-  "description": "In old (24-26 month) female mice, neuronal Rab5 early-endosome number in the cortex was higher in APOE4 than APOE3 knock-ins.",
+  "description": "In old (24-26 month) female mice, neuronal Rab5 early-endosome number in the cortex was higher in APOE4 than APOE3 knock-ins. Effect detail: read off the figure, the median difference is about +0.75 z-score units (APOE4 ~0.45 vs APOE3 ~-0.3); the axis is a z-score, so no percent applies.",
   "quote": "Interestingly, N-EE levels at old age were upregulated in APOE4 females compared to APOE3, pointing to a neuron- and female-specific upregulation in APOE4.",
   "summary": "(APOE3 -> APOE4) -> (higher neuronal Rab5 early-endosome number, cortex, old females)",
   "relevance": 0.2,
@@ -104,7 +104,7 @@
  },
  {
   "pmid": "41292981",
-  "description": "In old female mice, neuronal Rab5 early-endosome number in the hippocampus was higher in APOE4 than APOE3 knock-ins.",
+  "description": "In old female mice, neuronal Rab5 early-endosome number in the hippocampus was higher in APOE4 than APOE3 knock-ins. Effect detail: read off the figure, the median difference is about +0.7 z-score units (APOE4 ~0.35 vs APOE3 ~-0.35); the axis is a z-score, so no percent applies.",
   "quote": "Interestingly, N-EE levels were increased in APOE4 females compared to APOE3 at old age, which was not observed for T-EE-Ch levels.",
   "summary": "(APOE3 -> APOE4) -> (higher neuronal Rab5 early-endosome number, hippocampus, old females)",
   "relevance": 0.2,

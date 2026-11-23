@@ -1,7 +1,9 @@
 """Build H2_submission.xlsx from the official template and rows/<PMID>.json.
 
-The template is copied, never edited in place. Paper order is ORDER below
-(most relevant first); findings keep the order of each JSON file.
+The template is copied, never edited in place. ORDER below lists the papers;
+main() ranks them by relevance (rules: "P1 holding the findings most relevant
+to the hypothesis"): highest finding relevance first, then mean relevance,
+then ORDER position. Findings keep the order of each JSON file.
 """
 import json, os, shutil, sys
 import openpyxl
@@ -24,7 +26,20 @@ STRENGTH = {1: '1 very strong', 2: '2 strong', 3: '3 moderate', 4: '4 weak', 5: 
 METHOD = json.load(open(os.path.join(WORK, 'method.local.json')))
 
 
+def load(key):
+    rows = json.load(open(os.path.join(WORK, 'rows', f'{key}.json')))
+    return [x for x in rows[1:] if not x.get('paper')]
+
+
+def rank(keys, findings_of):
+    def score(key):
+        rels = [float(f['relevance']) for f in findings_of(key)]
+        return (-max(rels), -sum(rels) / len(rels))
+    return sorted(keys, key=score)
+
+
 def main(order=ORDER):
+    order = rank(order, load)
     shutil.copyfile(TEMPLATE, OUT)
     wb = openpyxl.load_workbook(OUT)
     ws = wb['Submission']

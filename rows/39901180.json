@@ -97,7 +97,7 @@
   "p_prov": "visual_only",
   "n": "10",
   "n_prov": "printed_in_text",
-  "class": 2,
+  "class": 4,
   "strength": 3,
   "against": false,
   "human_check": "Contrast is HPCD vs PBS within APOE4-TR, not APOE4 vs APOE3. eff estimated (PBS ~0.62, HPCD ~0.78). 'Recycling' is the authors' interpretation of a membrane-level increase; no recycling assay."
@@ -116,7 +116,7 @@
   "p_prov": "visual_only",
   "n": "10",
   "n_prov": "printed_in_text",
-  "class": 2,
+  "class": 4,
   "strength": 3,
   "against": false,
   "human_check": "eff estimated from 5G (PBS ~1.15, HPCD ~0.75; reduction). Fig 5H gives ****p<0.0001 on 150 ROIs from 5 mice (ROI-level pseudo-replication)."
@@ -148,8 +148,8 @@
   "relevance": 0.3,
   "system": "HeLa cells stably overexpressing ABCA1-GFP, recombinant ApoE3 vs ApoE4 0.2 uM for a time course; total ABCA1 by anti-GFP western blot. Non-neural cervical carcinoma line; overexpressed tagged ABCA1; exogenous recombinant ApoE.",
   "location": "Supplementary Fig 4A",
-  "eff": "~60%",
-  "eff_prov": "estimated_from_figure",
+  "eff": "qualitative",
+  "eff_prov": "printed_in_text",
   "p": "N/A",
   "p_prov": "not_found_in_source",
   "n": "N/A",

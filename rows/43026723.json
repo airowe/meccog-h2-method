@@ -9,7 +9,7 @@
  },
  {
   "pmid": "43026723",
-  "description": "Glypican-1 (a recycling cell-surface heparan sulfate proteoglycan) colocalized much less with Rab7 late endosomes in APOE4/4 than APOE3/3 human fibroblasts (Pearson R 0.32 vs 0.85); the authors read this as retarded transport from early to late endosomes. No APOE4 vs APOE3 test is reported.",
+  "description": "Glypican-1 (a recycling cell-surface heparan sulfate proteoglycan) colocalized much less with Rab7 late endosomes in APOE4/4 than APOE3/3 human fibroblasts (Pearson R 0.32 vs 0.85); the authors read this as retarded transport from early to late endosomes. No APOE4 vs APOE3 test is reported. Effect detail: the text prints Pearson r for GPC1 with Rab7 of 0.32 in APOE4/4 vs 0.85 in APOE3/3; no test compares the genotypes.",
   "quote": "When corresponding co-localizations were determined in ApoE4/4 fibroblasts the Pearson R-values were for Rab5 vs GPC1 G:R = 0.71 (Fig. 4E and F) and for Rab7 vs GPC1 G:R = 0.32; significance ** (Fig. 4G) indicating retarded transport of GPC1 to early endosomes and from early to late endosomes.",
   "summary": "(APOE3/3 -> APOE4/4) -> (less glypican-1 in Rab7 late endosomes)",
   "relevance": 0.35,
