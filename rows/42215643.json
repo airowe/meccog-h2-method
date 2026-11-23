@@ -1,0 +1,29 @@
+[
+ {
+  "paper": true,
+  "pmid": "42215643",
+  "doi": "10.1038/s41593-026-02297-x",
+  "pmcid": "PMC13334530",
+  "relevance_rank_note": "Surface biotinylation in mouse primary neurons treated with lipidated ApoE2/E3/E4: surface GluN1 (an NMDA receptor subunit) is unchanged by ApoE isoform, a control readout in a neuroproteasome paper. Mouse neurons, exogenous ApoE, surface level only (no recycling rate), no ARF6.",
+  "source_type": "PubMed published"
+ },
+ {
+  "pmid": "42215643",
+  "description": "Primary mouse neurons were treated with POPC/cholesterol-lipidated recombinant ApoE2, ApoE3 or ApoE4 and surface proteins were isolated by surface biotinylation; surface/total GluN1 did not differ by ApoE isoform (ApoE4 about 1.11 vs ApoE3 about 1.05 of PBS control, about 6% higher with ApoE4, read off the figure; no significant comparison marked). The ApoE4 reduction in the same experiment applies to the neuroproteasome, not to GluN1.",
+  "quote": "We found no change in neuroproteasome levels with delipidated ApoE particles, lipoparticles alone, nor do we find PC-ApoE-dependent changes in other membrane proteins such as GluN1 ( Fig. 6b )",
+  "summary": "(lipidated ApoE3 -> lipidated ApoE4) -> (no change in surface/total GluN1)",
+  "relevance": 0.5,
+  "system": "Primary neurons (DIV16) from 20S-FLAG mice; recombinant human ApoE2/E3/E4 conjugated to POPC/cholesterol (PC-rApoE); dose and duration for Fig 6b not stated in the paper (the matching patent WO2024118561A2 gives 400 nM for 24 h); surface biotinylation, streptavidin pull-down, LiCor immunoblot, surface/total normalised to vehicle. Mouse neurons; in vitro; exogenous ApoE on a mouse-ApoE background; surface level only.",
+  "location": "Fig 6b",
+  "eff": "~6%",
+  "eff_prov": "estimated_from_figure",
+  "p": "N/A",
+  "p_prov": "not_found_in_source",
+  "n": "3",
+  "n_prov": "printed_in_text",
+  "class": 3,
+  "strength": 4,
+  "against": true,
+  "human_check": "Bars read from the Nature figure page (PC-rApoE GluN1 group: Veh ~1.02, E2 ~1.06, E3 ~1.05, E4 ~1.11). Legend: N=3 biological replicates, one-way ANOVA with Tukey; no bracket on GluN1, so no significant comparison; exact P not given. GluN1 is a control readout, not the paper's question. Same direction as WT neurons in Extended Data Fig 8d (not read). Contrasts with 20547867, which found ApoE4 lowers surface glutamate receptors after Reelin stimulation (different trigger, 2 h)."
+ }
+]
