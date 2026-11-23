@@ -91,7 +91,7 @@
   "relevance": 0.45,
   "system": "Human iPSC-derived brain endothelial cells (iCE-BECs), two isogenic ApoE3/3 vs ApoE4/4 pairs; EEA1 immunostaining, mean vesicular integral intensity normalized to phalloidin area and to ApoE3, ~200 cells per condition. In vitro.",
   "location": "Fig 5B",
-  "eff": "~25%",
+  "eff": "~17%",
   "eff_prov": "estimated_from_figure",
   "p": "<0.001",
   "p_prov": "printed_in_text",
@@ -100,7 +100,7 @@
   "class": 3,
   "strength": 3,
   "against": false,
-  "human_check": "Effect read off box medians (~1.2-1.3 vs 1.0). Endosome number (Fig 5C) main effect p<0.01."
+  "human_check": "Effect read off box medians in the enlarged PMC figure (2026-11-23): pair 1 ApoE3 ~1.03 vs ApoE4 ~1.20 (~16%), pair 2 ~1.03 vs ~1.20 (~17%); earlier reading ~25% overstated it. Endosome number (Fig 5C) main effect p<0.01."
  },
  {
   "pmid": "40845853",
